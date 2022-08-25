@@ -1,0 +1,109 @@
+a:hover{
+    text-decoration: none;
+}
+
+.section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.section h2.section-head{
+    color: black;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section h2.section-head:after{
+    background: #ff7675;
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 20px auto;
+}
+
+#header{
+    color: aliceblue;
+    background-color: #ff7675;
+}
+
+#logo{
+font-size: 2rem;
+margin-top: 5px ;
+}
+
+#manu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#manu li{
+    display: inline-block;
+}
+
+#manu li a{
+    color: aliceblue;
+    padding: 15px 10px;
+    display: block;
+    text-decoration: none;
+}
+
+#manu li a:hover{
+    background-color: #d63031;
+}
+
+#banner{
+    background: url('banner.jpg') no-repeat 0 0;
+    background-size: cover;
+    height: 400px;
+}
+
+.banner-title{
+    padding-top: 5rem;
+}
+
+.banner-title h1{
+    background: rgb(255, 255, 255,0.8);
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+}
+
+.banner-title  p.lead{
+    color: white;
+    background-color: rgb(231, 76, 60, 0.7) ;
+    padding: 0;
+}
+
+.service-box{
+    text-align: center;
+}
+
+.service-box i.fa{
+    color:#ff7675 ;
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+
+#testimonials{
+    color: black;
+    background: url('apple-microsoft-1200.jpg') no-repeat 0 0;
+    background-size: cover;
+    padding: 50px 0;
+    position: relative;
+    height: 400px;
+}
+
+/* #testimonials::before{
+    background:rgb(52, 73, 94, 0.7);
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+} */
+
+#testimonials img{
+    border-radius: 50px;
+}
